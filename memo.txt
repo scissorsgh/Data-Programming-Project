@@ -1,0 +1,30 @@
+cd tabㄱㄱ
+client server ㄱㄱ
+npm.cmd install
+
+
+
+main -> main에 올린거를 내 서버에 바로 적용이 된다고 하자
+
+만약에 올린 코드에 버그가 있으면 서버도 버그가 생기겠지?
+
+그래서 다른 브랜치에 올리고 그걸 테스트, 검증하고 난 뒤에 main에 통합하는거야
+
+main에 너가 올렸어
+
+A가 branchA에 올렸어
+
+main을 바꿨어
+
+
+branchA에서
+
+git pull origin main
+main에 있는 변경사항이 branchA
+
+main a.txt
+branchA a.txt
+
+git add .  // 모든 변경 사항을 반영할것이다
+git commit -m  "수정 사항" // 수정 사항과 같이 기록(컴퓨터 깃 시스템에)
+git push origin main // 깃허브 클라우드 서버에 main 브랜치 상태를 반영하겠다
