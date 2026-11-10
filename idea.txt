@@ -1,0 +1,3 @@
+cd tabㄱㄱ
+client server ㄱㄱ
+npm.cmd install
