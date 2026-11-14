@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Noto Sans KR', 'DM Sans', sans-serif;
+  color: #51464A;
+  background: #FFF8F2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --wo-bg: #FFF8F2;
+  --wo-surface: #FFFFFF;
+  --wo-pink: #F8DDE2;
+  --wo-peach: #F2BFAE;
+  --wo-rose: #D98D9B;
+  --wo-lavender: #EAE2F2;
+  --wo-ink: #51464A;
+  --wo-muted: #95858A;
+  --wo-soft-ink: #73656A;
+  --wo-line: #F0E4DF;
+  --wo-line-strong: #E8D8D2;
+  --wo-serif: 'Gowun Batang', Georgia, serif;
+  --wo-sans: 'Noto Sans KR', sans-serif;
+  --wo-shadow-sm: 0 8px 24px rgba(101, 72, 70, .055);
+  --wo-shadow-md: 0 16px 42px rgba(101, 72, 70, .09);
+  --wo-radius-sm: 12px;
+  --wo-radius-md: 20px;
+  --wo-radius-lg: 28px;
+  --wo-container: 1160px;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; scroll-padding-top: 100px; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+img, svg { max-width: 100%; }
+::selection { color: var(--wo-ink); background: var(--wo-pink); }
+:focus-visible { outline: 3px solid rgba(217, 141, 155, .42); outline-offset: 3px; }
